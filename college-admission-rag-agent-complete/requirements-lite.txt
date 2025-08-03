@@ -1,0 +1,49 @@
+# College Admission RAG Agent - IBM Cloud Lite Compatible
+# All packages selected for optimal performance with IBM Cloud Lite services
+
+# Core Flask Application
+flask==2.3.3
+flask-cors==4.0.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+
+# IBM watsonx.ai and Cloud Services (Lite Compatible)
+ibm-watsonx-ai==1.1.0
+ibm-watson-machine-learning==1.0.357
+ibm-cloud-sdk-core==3.16.7
+
+# RAG and NLP Components
+langchain==0.1.0
+langchain-community==0.0.10
+sentence-transformers==2.2.2
+transformers==4.36.2
+
+# Vector Database (Local - No cloud costs)
+faiss-cpu==1.7.4
+chromadb==0.4.18
+numpy==1.24.3
+
+# Document Processing
+pypdf2==3.0.1
+python-docx==0.8.11
+pandas==2.1.4
+openpyxl==3.1.2
+
+# Web and API
+requests==2.31.0
+urllib3==2.1.0
+werkzeug==2.3.7
+
+# Utilities and Performance
+tqdm==4.66.1
+pyyaml==6.0.1
+click==8.1.7
+
+# Development and Testing (Optional)
+pytest==7.4.3
+pytest-flask==1.3.0
+black==23.12.1
+flake8==6.1.0
+
+# Monitoring and Logging
+python-json-logger==2.0.7
